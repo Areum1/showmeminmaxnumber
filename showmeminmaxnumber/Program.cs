@@ -14,7 +14,8 @@ namespace showmeminmaxnumber
 
             Console.Write("숫자를 입력해주세요: ");
             input = int.Parse(Console.ReadLine());
-            max = min = input;
+            max = input;
+            min = input;
             for (int i=0; i<4; i++)
             {
                 Console.Write("숫자를 입력해주세요: ");
